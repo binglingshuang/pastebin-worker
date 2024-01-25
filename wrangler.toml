@@ -1,15 +1,15 @@
 name= "pastebin-worker"
 compatibility_date = "2023-11-28"
-account_id= "516d0a360ccdea88dd79e9cf5d2bc3aa"
+account_id= "42ac523fa25cc84e07a297cec334af8a"
 main = "src/index.ts"
 workers_dev = false
 
 vars = { ENVIRONMENT = "production" }
-route = { pattern = "as.al", custom_domain = true }
+route = { pattern = "pb.bingshuang.club", custom_domain = true }
 
 kv_namespaces = [
-  { binding = "PB", id = "85ce3453c9f942a6900a5e9e4cdd34e7" },
-  { binding = "PBIMGS", id ="2716bc3deb2744f695f06e5d61e6cfc5" }
+  { binding = "PB", id = "03968665b8834b979b9f9ea21ca329bd" },
+  { binding = "PBIMGS", id ="2cbacce6c8c84e0893547b5bf66c3ced" }
 ]
 
 [site]
