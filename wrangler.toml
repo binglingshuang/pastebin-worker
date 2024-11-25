@@ -5,7 +5,7 @@ main = "src/index.ts"
 workers_dev = false
 
 vars = { ENVIRONMENT = "production" }
-route = { pattern = "pb.bingshuang.club", custom_domain = true }
+route = { pattern = "pb.frostecho.life", custom_domain = true }
 
 kv_namespaces = [
   { binding = "PB", id = "03968665b8834b979b9f9ea21ca329bd" },
